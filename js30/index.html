@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JS tasks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="exp">
+        <div class="exp-title">
+            Roots of Quadratic Equations
+        </div>
+        <div class="question-statement">
+            <input class="input-box" id="quad" />&nbsp;x
+            <sup>2</sup>&nbsp;+&nbsp;
+            <input class="input-box" id="unit" />&nbsp;x&nbsp;+&nbsp;
+            <input class="input-box" id="constant" />&nbsp;=&nbsp;0
+        </div>
+        <button class="custom-button" onclick="getRoots()">
+            Get roots
+        </button>
+        <div id="resultantRoots">
+
+        </div>
+    </div>
+    <div class="exp">
+        <div class="exp-title">
+            Fibonacci Sequence
+        </div>
+        <div class="question-statement">
+            Enter the number of steps, the Fibonacci sequence has to continue&nbsp;<input class="input-box" id="fibonacciLimit" type="number" />
+        </div>
+        <button class="custom-button" onclick="getSequence()">
+            Get sequence
+        </button>
+        <div id="resultantSequence">
+
+        </div>
+    </div>
+    <div class="exp">
+        <div class="exp-title">
+            Sort elements
+        </div>
+        <div class="question-statement">
+            Enter number of elements to sort&nbsp;<input class="input-box" id="numSortElements" type="number"/>
+        </div>
+        <div id="elementsOfSort">
+
+        </div>
+        <button class="custom-button" id="sortElementsInputButton" onclick="sortElements()">Enter elements</button>
+        <div id="resultSort">
+
+        </div>
+    </div>
+    <div class="exp">
+        <div class="exp-title">
+            Linear search
+        </div>
+        <div class="question-statement">
+            Enter number of elements to search&nbsp;
+            <input class="input-box" id="numLinearElements" type="number" />
+        </div>
+        <div id="elementsOfLinearSearch">
+    
+        </div>
+        <button class="custom-button" id="linearElementsInputButton" onclick="liSearchElements()">Enter elements</button>
+        <div id="resultLinearSearch">
+    
+        </div>
+    </div>
+    <div class="exp">
+        <div class="exp-title">
+            Binary search
+        </div>
+        <div class="question-statement">
+            Enter number of elements to search&nbsp;
+            <input class="input-box" id="numBinaryElements" type="number" />
+        </div>
+        <div id="elementsOfBinarySearch">
+    
+        </div>
+        <button class="custom-button" id="binaryElementsInputButton" onclick="biSearchElements()">Enter elements</button>
+        <div id="resultBinarySearch">
+    
+        </div>
+    </div>
+
+</body>
+
+</html>
