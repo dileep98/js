@@ -11,7 +11,7 @@ function preload() {
 }
 
 function setup() {
-	createCanvas(800, 800);
+	createCanvas(windowWidth, window Height);
 
 	rain.setVolume(0.5);
 	rain.loop();
