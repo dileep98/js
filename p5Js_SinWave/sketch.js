@@ -61,7 +61,7 @@ function draw() {
   //background(r,g,b,50);
 
 
-  background(0, 0,0,20);
+  background(0, 0,0,90);
 
 
   // put drawing code here
